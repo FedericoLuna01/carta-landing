@@ -10,7 +10,6 @@ const Contact = () => {
       <div className="container py-12 ">
         <div className="lg:flex lg:items-center lg:-mx-6">
           <XReveal
-            amount={1}
             className="lg:w-1/2 lg:mx-6">
             <h2
               className="text-2xl font-bold text-primary md:mb-4 lg:text-3xl"
@@ -60,7 +59,6 @@ const Contact = () => {
           </XReveal>
           <XReveal
             side='right'
-            amount={1}
             className="mt-8 lg:w-1/2 lg:mx-6">
             <Card>
               <CardHeader>

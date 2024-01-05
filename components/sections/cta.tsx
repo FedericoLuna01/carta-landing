@@ -3,8 +3,8 @@ import ScaleReveal from '../reveals/scale-reveal'
 
 const Cta = () => {
   return (
-    <div
-      className='test'
+    <section
+      className='radiant-gradient'
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const Cta = () => {
           className="shape-fill"
         ></path>
       </svg>
-    </div>
+    </section>
 
   )
 }

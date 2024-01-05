@@ -16,7 +16,7 @@ const XReveal: React.FC<XRevealProps> = ({
   children,
   className,
   delay = 0.05,
-  amount = 1,
+  amount = .5,
   side = 'left',
   index = 1
 }) => {

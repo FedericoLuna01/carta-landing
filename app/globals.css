@@ -70,7 +70,17 @@
   }
 }
 
-.test {
+.radiant-gradient {
   background: rgb(255,255,255);
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,228,231,0.35) 50%, rgba(255,255,255,1) 100%);
+}
+
+section {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
 }

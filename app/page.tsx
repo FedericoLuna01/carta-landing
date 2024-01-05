@@ -6,6 +6,7 @@ import Contact from '@/components/sections/contact'
 import Testimonials from '@/components/sections/testimonials'
 import About from '@/components/sections/about'
 import Whatsapp from '@/components/whatsapp'
+import Steps from '@/components/sections/steps'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Cta />
       <Features />
       <Pricing />
+      <Steps />
       <Testimonials />
       <Contact />
       <Whatsapp />

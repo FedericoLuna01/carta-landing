@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section>
       <div
-        className="container flex flex-row py-28 justify-between items-center gap-8"
+        className="container flex flex-col md:flex-row py-28 justify-between items-center gap-8"
       >
         <XReveal
           className="flex flex-col max-w-lg"
@@ -18,10 +18,14 @@ const About = () => {
           </span>
           <h2
             className="mb-2 text-2xl font-bold text-primary md:mb-4 lg:text-3xl"
-          >Una interfaz para el usuario 100% autogestionable</h2>
+          >
+            ¿Qué es Carta Digital?
+          </h2>
           <p
             className="text-muted-foreground"
-          >Con Carta digital tendrás tu usuario personalizado al que accederás desde tu mail y contraseña para poder gestionar todos los datos de tu cuenta.</p>
+          >
+            Con Carta digital tendrás tu usuario personalizado al que accederás desde tu mail y contraseña para poder gestionar todos los datos de tu cuenta.
+          </p>
           <div>
             {
               new Array(4).fill(0).map((_, i) => (

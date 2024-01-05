@@ -1,15 +1,12 @@
-import YReveal from "../reveals/y-reveal"
 import TestimonialsCarousel from "../testimonials-carousel"
 
 const Testimonials = () => {
   return (
     <section
-      className=""
       id="testimonials"
     >
-      <YReveal
+      <div
         className="container flex flex-col items-center justify-center gap-4 py-24"
-        amount={.7}
       >
         <div
           className="text-center space-y-2"
@@ -26,7 +23,7 @@ const Testimonials = () => {
           </h2>
         </div>
         <TestimonialsCarousel />
-      </YReveal>
+      </div>
     </section>
   )
 }

@@ -4,7 +4,7 @@ import XReveal from "../reveals/x-reveal"
 
 const Features = () => {
   return (
-    <div className="container py-28">
+    <section className="container py-28">
       <div className="mx-auto">
         <YReveal
           amount={1}
@@ -17,9 +17,7 @@ const Features = () => {
             This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.
           </p>
         </YReveal>
-
         <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
-
           {
             featuresItems.map((item, i) => (
               <XReveal index={i} side="right" key={item.title} className="flex gap-4 md:gap-6 border rounded-lg border-border p-4 shadow-sm">
@@ -39,7 +37,7 @@ const Features = () => {
           }
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

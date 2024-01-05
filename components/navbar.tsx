@@ -31,11 +31,11 @@ const Navbar = () => {
                     variant='link'
                     asChild
                   >
-                    <Link
+                    <a
                       href={item.href}
                     >
                       {item.label}
-                    </Link>
+                    </a>
                   </Button>
                 </li>
               ))

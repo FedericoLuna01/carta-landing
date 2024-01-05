@@ -73,7 +73,6 @@ const TestimonialsCarousel = () => {
           }
         </CarouselContent>
         <div
-          // className="hidden sm:block"
         >
           <CarouselPrevious className="top-[120%] left-[30%] sm:-left-16 sm:-right-12 sm:top-1/2 sm:-translate-y-1/2" />
           <CarouselNext className="top-[120%] right-[30%] sm:-right-12 sm:top-1/2 sm:-translate-y-1/2" />
